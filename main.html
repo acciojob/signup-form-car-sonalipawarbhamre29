@@ -8,50 +8,53 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="" method="get">
-        <label for="name">Name</label>
+	<form id="my-form" method="post">
+<div>
+        <label for="name">1.Name</label>
         <input type="text" id="name" placeholder="Name" required>
-        <br>
-        <br>
-        <label for="email">Email</label>
+</div>
+        <div>
+        <label for="email">2.Email</label>
         <input type="email" id="email" placeholder="Email" required>
-        <br>
-        <br>
-        <label for="gender">Gender</label>
+		</div>
+        <div>
+        <label for="gender">3.Gender</label>
         <input type="radio" id="gender_m" name="gender" required>Male
         <input type="radio" id="gender_f" name="gender" required>Female
-        <br>
-        <br>
-        <label for="cars">Car Brands</label>
+		</div>
+        <div>
+        <label for="cars">4.Car Brands</label>
         <select name="cars" id="cars" required>
             <option value="" disabled selected>--Please choose an option--</option>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Mercedez">Mercedez</option>
         </select>
-        <br>
-        <br>
-        <label for="age">Age</label>
+		</div>
+        <div>
+        <label for="age">5.Age</label>
         <input type="number" id="age" placeholder="Age" required>
-        <br>
-        <br>
-        <label for="dob">DOB</label>
+		</div>
+        <div>
+        <label for="dob">6.DOB</label>
         <input type="date" id="dob" required>
-        <br>
-        <br>
-        <label for="tel">Phone Number</label>
+		</div>
+        <div>
+        <label for="tel">7.Phone Number</label>
         <input type="tel" id="tel" placeholder="xxx-xxx-xxxx" required>
-        <br>
-        <br>
-        <label for="password">Password</lable>
+		</div>
+        <div>
+        <label for="password">8.Password</lable>
         <input type="password" id="password" placeholder="Password" required>
-        <br>
-        <br>
+		
+		</div>
+		<div>
         <label for="checkbox">I agree to the TOS</lable>
         <input type="checkbox" id="checkbox" required>
-        <br>
-        <br>
+		</div>
+        <div>
         <input type="submit" value="Submit">
+		</div>
     </form>
     <script type="text/javascript" src="./script.js">
 </script>
